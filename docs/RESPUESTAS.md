@@ -27,3 +27,13 @@ actualizar al volver a consultarlo. Esto ocurre porque la directiva factory le o
 totalmente nueva del repositorio cada vez que se solicita una dependencia; por lo tanto, el caso de uso de registrar
 guardaría la información en una lista en memoria distinta a la que consulta el caso de uso de listar. Al configurarlo 
 como single, ambas operaciones comparten exactamente la misma instancia y los datos se conservan en la sesión.
+
+
+## Salida de pruebas automatizadas (:shared:testAndroidHostTest)
+
+PS C:\dev\BiblioMobil> ./gradlew :shared:testAndroidHostTest
+Reusing configuration cache.
+
+BUILD SUCCESSFUL in 2s
+33 actionable tasks: 1 executed, 32 up-to-date
+Configuration cache entry reused.
